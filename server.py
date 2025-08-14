@@ -22,7 +22,9 @@ def home():
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
+    print("Incoming WebSocket connection...")
     await websocket.accept()
+    print("WebSocket accepted!")
     while True:
         try:
             data = await websocket.receive_bytes()
