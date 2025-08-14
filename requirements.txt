@@ -1,0 +1,6 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+opencv-python-headless==4.8.0.74
+websockets==11.0.3
+torch==2.2.0
+ultralytics==8.0.50
