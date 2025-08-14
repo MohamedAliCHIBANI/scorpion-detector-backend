@@ -8,7 +8,7 @@ app = FastAPI()
 # Autoriser GitHub Pages
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://ton-utilisateur.github.io"],
+    allow_origins=["https://MohamedAliCHIBANI.github.io"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"]
