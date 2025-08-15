@@ -1,6 +1,7 @@
 fastapi
-uvicorn
+uvicorn[standard]
 ultralytics
 opencv-python-headless
 numpy
 websockets
+torch==2.2.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
